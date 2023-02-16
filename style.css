@@ -1,0 +1,52 @@
+body{
+	background:#202020;
+	color:#FFFFFF;
+	font-family:monospace;
+	text-align:center;
+	user-select:none;
+    overflow:hidden;
+}
+
+.airport, .aircraft, .body, .line, .circle, .text, .tail{
+    position:absolute;
+}
+
+.body, .circle, .tail{
+    transform:translate(-50%, 50%);
+}
+
+.body{
+    border-style:solid;
+    border-color:#008000;
+    background:#202020;
+    left:0px;
+    bottom:0px;
+}
+
+.line{
+    background:#00C000;
+    height:1px;
+    left:0px;
+    bottom:0px;
+    transform:translate(0%, 50%);
+}
+
+.circle{
+    border-width:1px;
+    border-style:solid;
+    border-radius:100%;
+    left:0px;
+    bottom:0px;
+}
+
+.text{
+    width:8em;
+    height:5em;
+    font-size:1.2em;
+    font-weight:1000;
+}
+
+.tail{
+    background:#808080;
+    border-radius:100%;
+}
