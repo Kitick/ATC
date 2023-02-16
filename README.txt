@@ -70,7 +70,7 @@ You can also modulate time, by changing the simulation settings and frame rates.
 	- Sim.start(10, 10, 5);
 
 
-Tehcnical bits
+Tehcnical Bits
 
 The "Aircraft" class that contains everything related to the aircraft and how they behave. It contains all the code for the speration rings, drawing, radio parsing, and runs its own update cycles prompted by the simulation.
 The "Controller" class contains the in progress methods of having a controller issue instructions to Aircraft
